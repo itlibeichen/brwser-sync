@@ -1,0 +1,24 @@
+http://www.browsersync.cn/docs/command-line/#watching-files-example   ----> 说明文档
+
+http://www.mamicode.com/info-detail-669066.html   ----->   博客实用性强
+
+
+****
+
+	1、安装   npm install -g browser-sync
+
+	2.1、  browser-sync start --server --files "css/*.css"    ----> 按照路径进行监听  这是在目录下输入的命令
+
+	2.2、  自带命令工具的IDE例webstrom  browser-sync start --proxy "localhost:8080" --files "css/*.css"   
+
+	--->这个命令用于纯静态站点，也就是仅一些.html文件的情况。后面的--files "css/*.css"，是指监听css目录中的后缀名为.css的文件。请注意这个命令里的start --server，这其实是BrowserSync自己启动了一个小型服务器。
+	
+	2.3、 如果你是用webstorm打开的话 端口号  http://localhost:8080/browser-sync/index.html
+	
+                         *那么请把http://localhost:8080后面的数字改为3000
+
+	3、如果你重新创建了一个文件 html或者是css的话  一定要重新启动一下命令行  或者 在浏览器中手动
+	     刷新一下
+
+
+*****
